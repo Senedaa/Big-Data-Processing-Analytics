@@ -61,8 +61,14 @@ Create directories in HDFS and upload the input data:
 5. **Write and Execute MapReduce Program**:
    - Write a MapReduce program in Java. PiCalculation.java
    - Compile, create a JAR file, and execute the MapReduce job.
+     
+   ![ steps](https://github.com/Senedaa/Big-Data-Processing-Analytics/raw/main/Map-Reduce/Pi/images/Picture2.jpg)
+
   
 6. **Result**:
+   -Here shows the result value of Pi, when N=100000 and Readius = 200
+   
+![Result value of Pi](https://github.com/Senedaa/Big-Data-Processing-Analytics/raw/main/Map-Reduce/Pi/images/result.jpg)
 
    
 
