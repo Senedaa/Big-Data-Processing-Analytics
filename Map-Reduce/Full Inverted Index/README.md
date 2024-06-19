@@ -65,6 +65,9 @@ This project outlines the steps to generate a full inverted index using Hadoop M
     4. **Compile InvertedIndexReducer.java:**
         - This script implements the Reducer class, aggregating intermediate key-value pairs from the mapper, and constructing the final inverted index mapping words to the documents where they occur.
 
+![File Image](https://github.com/Senedaa/Big-Data-Processing-Analytics/raw/main/Map-Reduce/Full%20Inverted%20Index/images/files.png)
+
+
     ```bash
     javac -classpath $(~/hadoop-3.4.0/bin/hadoop classpath) *.java
     ```
@@ -94,6 +97,9 @@ This project outlines the steps to generate a full inverted index using Hadoop M
     bin/hdfs dfs -ls /user/sdesalge137/fullinvertedindexcalculation/output
     bin/hdfs dfs -cat /user/sdesalge137/fullinvertedindexcalculation/output/part-*
     ```
+    
+![Result Image](https://github.com/Senedaa/Big-Data-Processing-Analytics/raw/main/Map-Reduce/Full%20Inverted%20Index/images/result.png)
+
 
 ## Conclusion
 
