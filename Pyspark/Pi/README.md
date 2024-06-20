@@ -17,6 +17,7 @@ For detailed design specifications, please refer to the Python script `calculate
    ```bash
    gsutil cp calculate_pi.py gs://your-bucket-name/
    ```
+![Image Alt Text](https://github.com/Senedaa/Big-Data-Processing-Analytics/raw/main/Pyspark/Pi/images/images1.png)
 
 #### Step 2: Submit PySpark Job to Dataproc
 
@@ -54,7 +55,8 @@ For detailed design specifications, please refer to the Python script `calculate
    gsutil ls gs://your-bucket-name/pi-output/
    gsutil cat gs://your-bucket-name/pi-output/*.json
    ```
-   
+   ![Result](https://github.com/Senedaa/Big-Data-Processing-Analytics/raw/main/Pyspark/Pi/images/result.png)
+
 
 ### Conclusion
 In conclusion, this document has illustrated the process of estimating Pi using the Monte Carlo method implemented with PySpark on Google Cloud Dataproc. By leveraging cloud computing capabilities, we efficiently parallelized the computation across multiple nodes, enhancing performance and scalability. This approach not only demonstrates the power of distributed computing but also provides a practical example of using cloud infrastructure for scientific computation tasks.
