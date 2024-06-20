@@ -2,9 +2,23 @@
 
 This document outlines the process of calculating an estimate of Pi using the Monte Carlo method with PySpark on Google Cloud Dataproc. The Monte Carlo method involves randomly sampling points within a square and determining the ratio that fall within a quarter-circle inscribed within the square. This ratio approximates Pi.
 
+### Prerequisites
+
+[Guide to Creating Bucket and Dataproc on GCP (PDF)](https://github.com/Senedaa/Big-Data-Processing-Analytics/blob/main/Pyspark/Creating%20Bucket%20and%20Dataproc%20on%20GCP.pdf)
+
 ### Design
 
-For detailed design specifications, please refer to the Python script `calculate_pi.py` available in your GCS bucket at `gs://your-bucket-name/calculate_pi.py`
+- **Architecture Overview**: 
+  - Utilizes Google Cloud Dataproc for managed Apache Spark and Hadoop clusters.
+  - Dynamic resource allocation ensures scalability and cost-efficiency.
+
+- **Data Processing Strategy**:
+  - Implements the Monte Carlo method for Pi estimation.
+  - Parallelizes computation using Spark across multiple partitions for performance optimization.
+
+- **Data Management**:
+  - Stores input data, intermediate results, and final output in Google Cloud Storage (GCS).
+  - Outputs results in JSON format for easy retrieval and analysis.
 
 ### Implementation
 
