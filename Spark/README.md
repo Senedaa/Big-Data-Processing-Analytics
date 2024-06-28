@@ -1,7 +1,11 @@
 # PageRank Project on GCP
 
 ## Description
-This project demonstrates the implementation of the PageRank algorithm using PySpark and Scala on Google Cloud Platform (GCP). The algorithm ranks web pages based on link structures, simulating the functionality of search engines.
+This project demonstrates the implementation of the PageRank algorithm using PySpark and Scala on Google Cloud Platform (GCP). The algorithm ranks web pages based on link structures, simulating the functionality of search engines. This task is to solve the follwing task:
+
+![PageRank Results after 10 Iterations](https://github.com/Senedaa/Big-Data-Processing-Analytics/blob/main/Spark/images/task.png)
+
+
 
 ## Design
 The project is divided into two main parts:
@@ -69,11 +73,16 @@ The project is divided into two main parts:
   ```
 
 ## Results
-The PageRank algorithm was executed over multiple iterations. As the iterations increased, the ranks of the pages converged, demonstrating improved accuracy in ranking based on the link structure. This reflects the algorithm's capability to simulate the distribution of link importance across web pages.
+The PageRank algorithm was executed over multiple iterations. As the iterations increased, the ranks of the pages converged, demonstrating improved accuracy in ranking based on the link structure. This reflects the algorithm's capability to simulate the distribution of link importance across web pages.Here are some examples when the iter is 10 and 1.
+
+![PageRank Results after 10 Iterations](https://github.com/Senedaa/Big-Data-Processing-Analytics/blob/main/Spark/images/result1-iter10.png)
+
+![PageRank Results after 10 Iterations](https://github.com/Senedaa/Big-Data-Processing-Analytics/blob/main/Spark/images/result2-iter1.png)
 
 ## Conclusion
 The project successfully utilized GCP's Dataproc for distributed computing with both PySpark and Scala. This implementation showcases the effectiveness of cloud resources for handling large-scale data processing tasks, such as the PageRank algorithm.
 
 ## Presentation Linke
+https://docs.google.com/presentation/d/1Qef7XPm3Cn_khkWx_NqFpOMyfhlHo2uAURDHGVrVgPA/edit#slide=id.g2e90326f855_1_331
 
 ## Appendix
