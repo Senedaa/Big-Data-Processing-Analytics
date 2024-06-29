@@ -56,6 +56,7 @@ This setup combines the scalability and resource efficiency of Kubernetes with t
    ```bash
    kubectl apply -f spark-pvc.yaml
    ```
+![Image Description](https://github.com/Senedaa/Big-Data-Processing-Analytics/raw/main/Pyspark/Word%20Count%2B%20PageRank/images/Picture1.png)
 
 4. **Prepare Application JAR File**:
 
@@ -136,6 +137,12 @@ This setup combines the scalability and resource efficiency of Kubernetes with t
 The setup allows for scalable execution of Apache Spark jobs on Kubernetes, leveraging persistent storage for data integrity and reliability across job executions. The combination of GKE, NFS, and Apache Spark Helm charts facilitates seamless deployment and management of distributed data processing tasks.
 
 By following these steps, you can effectively harness the power of Apache Spark on Kubernetes to handle large-scale data processing and analytics workloads in a cloud-native environment.
+
+![Image Description](https://github.com/Senedaa/Big-Data-Processing-Analytics/raw/main/Pyspark/Word%20Count%2B%20PageRank/images/Picture3.png)
+
+![Image Description](https://github.com/Senedaa/Big-Data-Processing-Analytics/raw/main/Pyspark/Word%20Count%2B%20PageRank/images/Picture4.png)
+
+
 
 ## Conclusion
 
