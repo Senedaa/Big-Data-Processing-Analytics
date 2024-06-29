@@ -143,9 +143,11 @@ By following these steps, you can effectively harness the power of Apache Spark 
 ![Image Description](https://github.com/Senedaa/Big-Data-Processing-Analytics/raw/main/Pyspark/Word%20Count%2B%20PageRank/images/Picture4.png)
 
 
-
 ## Conclusion
+The entire project is developed in Google Cloud Platform which provides different tools from which we are using Google Kubernetes Engine(GKE).
+Then using PySpark API we implemented Word Count and PageRank applications on Apache Spark running on Google Kubernetes Engine.
 
 ## Presentation Link
+https://docs.google.com/presentation/d/1RYzBBLNF0T0Ugr2Kh2CYHxtOds19omjI-XZCEtQIbeM/edit?usp=sharing
 
 ## Appendix
